@@ -9,7 +9,7 @@ public class DBConnection {
      Connection con = null;
      String url = "jdbc:mysql://localhost:3306/mentor_mentee_management_system"; //MySql URL followed by the database name
      String username = "root"; // mySql user name
-     String password = "cyber123"; //mySql password
+     String password = ""; //mySql password
     
      //System.out.println("In DBConnection.java class ");
       
