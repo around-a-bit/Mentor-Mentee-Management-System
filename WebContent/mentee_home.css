@@ -1,0 +1,55 @@
+:root {
+	--dk-gray-100: #F3F4F6;
+	--dk-gray-200: #f9ffcb;
+	--dk-gray-300: #a20c0c;
+	--dk-gray-400: #a20c0c;
+	--dk-gray-500: #a20c0c;
+	--dk-gray-600: #a20c0c;
+	--dk-gray-700: #a20c0c;
+	--dk-gray-800: #a20c0c;
+	--dk-gray-900: #a20c0c;
+	--dk-dark-bg: #a20c0c;
+	--dk-darker-bg: #a20c0c;
+	--navbar-bg-color: #a20c0c;
+	--sidebar-bg-color: #f9ffcb;
+	--sidebar-width: 250px;
+  --button-color:var(--dk-gray-900);
+}
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	background-color: var(--dk-darker-bg);
+	font-size: .925rem;
+
+}
+
+.main-color {
+	color: #ffc107
+}
+/* Wrapper body */
+
+#wrapper {
+	transition: all .3s ease-in-out;
+}
+
+/* Navbar */
+
+.navbar{
+	background-color: var(--navbar-bg-color) !important;
+    line-height: 60px !important; 
+    padding: 0 !important;
+    position: fixed;
+}
+.navbar a{
+    text-decoration: none;
+    font-size: large;
+	color:var(--dk-gray-200) ;
+}
